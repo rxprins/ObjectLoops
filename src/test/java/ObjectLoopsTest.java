@@ -14,7 +14,7 @@ public class ObjectLoopsTest {
 
         ObjectLoops objectSquare = new ObjectLoops();
         String expectedSquare = ("1 4 9 16 25 36 49 64 81 100 ");
-        assertEquals("Square of numbers ; ",expectedSquare, objectSquare.printSequence(1,10,false,true,false));
+        assertEquals("Square of numbers ; ",expectedSquare, objectSquare.printSequence(1,3,false,true,false));
 
         ObjectLoops objectRandom = new ObjectLoops();
         String expectedRandom = (" ");

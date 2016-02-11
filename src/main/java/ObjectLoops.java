@@ -1,10 +1,9 @@
 import java.util.Scanner;
+import java.math.*;
 
-/**
- * Created by rianaprins on 2/9/16.
- */
 public class ObjectLoops {
     private String myAnswer = "";
+    int powerA = 0;
 
     public String printSequence(int begin, int end, boolean isPosOdd, boolean isSquares, boolean isRandom) {
         String answer = "";
